@@ -1,0 +1,58 @@
+"use strict";
+// This is not meant as a working code but more to make sure
+// types are working as intended.
+var font = {
+    pages: ["SomeFont-Italic.png"],
+    chars: [
+        {
+            id: 87,
+            width: 52,
+            height: 40,
+            xoffset: 0,
+            yoffset: -29.694000000000003,
+            xadvance: 39.522000000000006,
+            chnl: 15,
+            x: 0,
+            y: 0,
+            page: 0,
+        },
+        {
+            id: 64,
+            width: 51,
+            height: 50,
+            xoffset: 0,
+            yoffset: -29.904000000000003,
+            xadvance: 44.1,
+            chnl: 15,
+            x: 0,
+            y: 42,
+            page: 0,
+        },
+    ],
+    info: {
+        face: "ABeeZee Italic",
+        size: 42,
+        bold: 0,
+        italic: 0,
+        charset: [" ", "!"],
+        unicode: 1,
+        stretchH: 100,
+        smooth: 1,
+        aa: 1,
+        padding: [0, 0, 0, 0],
+        spacing: [2, 2],
+    },
+    common: {
+        lineHeight: 49.644000000000005,
+        base: 38.64,
+        scaleW: 512,
+        scaleH: 512,
+        pages: 1,
+        packed: 0,
+        alphaChnl: 0,
+        redChnl: 0,
+        greenChnl: 0,
+        blueChnl: 0,
+    },
+    kernings: [{ first: 34, second: 44, amount: -8.4 }],
+};
